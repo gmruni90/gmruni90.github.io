@@ -1,0 +1,30 @@
+.dimensione{
+display: flex;
+flex-wrap: wrap;
+margin-top: 35px;
+}
+.gr_presentazione{
+	display: flex;
+flex-wrap: wrap;
+margin-top: 35px;
+}
+.gr_ingredienti,{
+	display: flex;
+flex-wrap: wrap;
+margin-top: 35px;
+}
+
+.gr_preparazione{
+	display: flex;
+flex-wrap: wrap;
+margin-top: 35px;
+}
+
+p{
+display: flex;
+flex-wrap: wrap;
+margin-top: 35px;
+}
+
+
+{}

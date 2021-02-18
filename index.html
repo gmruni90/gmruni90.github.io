@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title>Voglia di Sicilia</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="giallo2-.css">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body >
+    
+<header>
+  <nav class="navbar navbar-expand-md colore_barra fixed-top colore">
+    <div class="container-fluid">
+      <a class="navbar-brand font_titolo" href="index.html">Voglia di Sicilia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          
+          <li class="nav-item dropdown font_span">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Ricette
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="sezioni/antipasti.html">Antipasti</a></li>
+            <li><a class="dropdown-item" href="sezioni/primi.html">Primi</a></li>
+            <li><a class="dropdown-item" href="sezioni/secondi.html">Secondi</a></li>
+            <li><a class="dropdown-item" href="sezioni/dolci.html">Dolci</a></li>
+            <li><a class="dropdown-item" href="sezioni/street_food.html">Street food</a></li>
+          </ul>
+        </li>
+
+          <li class="nav-item dropdown font_span">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FAQ
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="sezioni/chi.html">Chi siamo?</a></li>
+            
+          </ul>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link font_barra" href="#" tabindex="-1" >Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Cerca">
+          <button type="button" class="btn btn-outline-dark btn-lg" type="submit">Cerca</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#777"/>
+          <img src="foto/anelletti.jpg" class="img-fluid"  alt=""></svg>
+
+        <div class="container">
+          <div class="color_caption text-start">
+            <h1 class="color1">Anelletti al forno alla palermitana</h1>
+            <p class="color1">Gli anelletti al forno palermitani sono un piatto delle feste, ma anche da scampagnata. 
+            Non è inusuale, infatti, vederli consumare al mare, perché anche a temperatura ambiente sono una vera delizia.
+</p>
+            <p><a class="btn btn-lg sign_color" href="ricette/anelletti.html" role="button">Ricetta</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
+        <img src="foto/panino.jpg"  alt=""></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="color1">Panino con la milza</h1>
+            <p class="color1"> Il panino ca' mievusa, derivante dalla cucina kasher, ha un ripieno speciale, un mix di frattaglie tra cui la milza, in dialetto palermitano: mievusa, appunto.
+            </p>
+            <p><a class="btn btn-lg sign_color" href="ricette/panino_milza.html" role="button">Ricetta</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
+        <img src="foto/cassata.jpg" class="img-fluid" alt="cassata"></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1 class="color1">Cassata siciliana</h1>
+            <p class="color1">Prodotto della pasticceria siciliana, e più specificatamente di Palermo, merita il posto d'onore tra i dolci tipici di questa regione.
+            Nata per celebrare la Pasqua dopo i sacrifici quaresimali, con la ricchezza dei suoi ingredienti rispecchia le caratteristiche della cucina saracena, che ama armonizzare sapori contrastanti.</p>
+            <p><a class="btn btn-lg sign_color" href="ricette/cassata.html" role="button">Ricetta</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+
+
+
+
+
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      
+        <div class= "quadro_grand">
+          <section class="quadro_header quadro_dentro">
+          <h3 class="quadro_titolo font_voglia " data-title="ho voglia di... "> Ho voglia di... </h3>
+          <dl class="marginebasso">
+            <dt><a href="sezioni/antipasti.html" title="Antipasti"><span class="font_span">Antipasti</span></a></dt>
+                <dd><a href="sezioni/antipasti_veloci.html"title="Antipasti veloci">Antipasti veloci</a></dd>
+                 <dd><a href="sezioni/antipasti_verdure.html"title="Antipasti Verdure">Antipasti Verdure</a></dd>
+                  <dd><a href="sezioni/antipasti_carne.html"title="Antipasti Carne">Antipasti Carne</a></dd>
+
+          </dl>
+          <dl class="marginebasso">
+            <dt><a href="sezioni/primi.html" title="Primi"><span class="font_span">Primi</span></a></dt>
+                <dd><a href="sezioni/primi_carne.html" title="Primi carne">Primi carne</a></dd>
+                 <dd><a href="sezioni/primi_verdure.html"title="Primi verdure">Primi verdure</a></dd>
+                  <dd><a href="sezioni/primi_pesce.html"title="Primi pesce">Primi pesce</a></dd>
+
+          </dl>
+          <dl class="marginebasso">
+            <dt><a href="sezioni/secondi.html" title="Secondi"><span class="font_span">Secondi</span></a></dt>
+                <dd><a href="sezioni/secondi_carne.html" title="Secondi Carne">Secondi Carne</a></dd>
+                 <dd><a href="sezioni/secondi_pesce.html"title="Secondi Pesce">Secondi Pesce</a></dd>
+                
+          </dl>
+          <dl class="marginebasso">
+            <dt><a href="sezioni/dolci.html" title="Dolci"><span class="font_span">Dolci</span></a></dt>
+                <dd><a href="sezioni/torte.html" title="Torte">Torte</a></dd>
+                 <dd><a href="sezioni/piccola_pasticceria.html"title="Piccola pasticceria">Piccola pasticceria</a></dd>
+
+          </dl>
+           <dl class="marginebasso">
+            <dt><a href="sezioni/street_food.html" title="Street Food"><span class="font_span">Street Food</span></a></dt>
+                <dd><a href="sezioni/fritto.html" title="Fritto">Fritto</a></dd>
+                 <dd><a href="sezioni/alla_brace.html"title="Alla Brace">Alla Brace</a></dd>
+
+          </dl>
+
+        </section>
+        </div>
+    </div>
+<hr class="featurette-divider">
+<h4 class="font_voglia" data-title="Cosa proponiamo... "> Cosa proponiamo... </h4>
+<div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading color1 font_proposte"><a href="ricette/arancine.html" title="arancine">Arancine <span class="text-muted  "> </span></a></h2>
+        <p class="lead color1">Non importa in quale angolo della Sicilia vi troviate: quasi ogni città rivendica la paternità delle famosissime arancine.
+        Si tratta delle famosissime “palle di riso” siciliane, avvolte da una croccante panatura dorata e con al centro un ripieno di ragù con carne con piselli e carote o mozzarella, besciamella e prosciutto, nella famosa variante bianca “al burro”. </p>
+
+      </div>
+      <div class="col-md-5 order-md-1">
+        <a href="ricette/arancine.html">
+            <img src="foto/arancine.jpg" alt="arancine" width="500" height="500">
+        </a>
+
+      </div>
+    </div>
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading color1 font_proposte"><a href="ricette/cannolo.html" title="cannolo">Cannolo <span class="text-muted"> </span></a></h2>
+        <p class="lead color1">I Cannoli siciliani, sono un dolce tradizionale tipico della pasticceria siciliana! Si tratta di cialde fritte a forma di tubo appunto “Cannolo“; farcite con crema di ricotta di pecora e gocce di cioccolato, infine decorati con zucchero a velo e granella di frutta secca : pistacchi, arancia candita che sono aggiunte sul ripieno che spunta dalla cialda!</p>
+      </div>
+      <div class="col-md-5">
+        <a href="ricette/cannolo.html">
+            <img src="foto/cannolo.jpg" alt="Cannolo siciliano" width="500" height="500">
+        </a>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+   <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  
+</main>
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    
+    
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
